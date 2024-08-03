@@ -1,0 +1,7 @@
+# config.yml
+
+LOG_DIR: data_log
+LOG_PREFIX_DIR: data_prefix
+LOG_ENCODING_DIR: data_encoding
+STATS_DIR: stats
+ML_DIR: data_ml
