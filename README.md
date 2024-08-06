@@ -6,13 +6,13 @@ Project in ![PyPI - Python Version](https://img.shields.io/badge/python-3.12-377
 ### > Script Execution
 
 #### ```01_log_read.py```
-Loads the main event log, extracts statistics and adds duration and remaining time of each case.  
+Loads the main event log, extracts statistics and adds duration and remaining time of each case (stardard event log with suffix _std). It enriches the event log, creating the file with the suffix _enr. Starting file is: /data_log/EVENT-LOG_ED.csv.  
 
 #### ```02_log_prefix.py```
-Extracts prefixes from the main event log.  
+Extracts prefixes from the event log (std or enr).  
 
 #### ```03_log_encoding.py```
-Starting from prefixes, it encodes the tracks.  
+Starting from prefixes, it encodes the tracks creating two events log (_std_ and _enr_).  
 
 #### ```04_log_prediction.py```
 Performs regression algorithms on encoded prefixes.  

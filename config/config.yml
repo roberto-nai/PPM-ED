@@ -5,3 +5,37 @@ LOG_PREFIX_DIR: data_prefix
 LOG_ENCODING_DIR: data_encoding
 STATS_DIR: stats
 ML_DIR: data_ml
+PLOT_DIR: plots
+
+# Event log main columns
+CASEID_COL: CaseID
+ACTIVITY_COL: ACTIVITY
+TIMESTAMP_COL: TIMESTAMP
+
+# Distinction between standard and enriched event logs
+STD_SUFFIX: std
+ENR_SUFFIX: enr
+
+# Event log feature types
+EVENT_LOG_TYPES:
+  CaseID: object
+  ACTIVITY: object
+  TIMESTAMP: object
+  RESOURCE: object
+  ESI: int
+  OUTCOME: object
+  INPAT-HOSP-DEP: object
+  CASE_DURATION_sec: float
+  REMAINING_TIME_sec: float
+  Active_CaseID: int
+  TIMESTAMP_HH: int
+  COUNT-ESI-1: int
+  COUNT-ESI-2: int
+  COUNT-ESI-3: int
+  COUNT-ESI-4: int
+  COUNT-ESI-5: int
+  CLUSTER: int
+
+
+# Cross Validation
+CV_FOLDS: 5

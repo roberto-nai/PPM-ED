@@ -163,7 +163,17 @@ cython_debug/
 _old/
 **/.DS_Store
 
-# Ignore every file the directory
+# Ignore every file int the directory
+data_encoding/*
+data_ml/*
+data_prefix/*
+plots/*
+stats/*
 
 # But do not ignore the directory itself
+!data_encoding/.gitkeep
+!data_ml/.gitkeep
+!data_prefix/.gitkeep
+!plots/.gitkeep
+!stats/.gitkeep
 
