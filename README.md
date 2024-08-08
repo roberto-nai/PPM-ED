@@ -6,7 +6,7 @@ Project in ![PyPI - Python Version](https://img.shields.io/badge/python-3.12-377
 ### > Script Execution
 
 #### ```01_log_read.py```
-Loads the main event log, extracts statistics and adds duration and remaining time of each case (stardard event log with suffix _std). It enriches the event log, creating the file with the suffix _enr. Starting file is: /data_log/EVENT-LOG_ED.csv.  
+Loads the main event log, extracts statistics and adds duration and remaining time of each case (stardard event log with suffix ```_std```). It also creates the version of the event log with the values of the ACTIVITY column in ENG. It enriches the event log, creating the file with the suffix ```_enr```. Starting file is: /data_log/EVENT-LOG_ED.csv.  
 
 #### ```02_log_prefix.py```
 Extracts prefixes from the event log (std or enr).  
