@@ -168,6 +168,7 @@ data_encoding/*
 data_ml/*
 data_prefix/*
 plots/*
+shap/*
 stats/*
 
 # But do not ignore the directory itself
@@ -175,5 +176,6 @@ stats/*
 !data_ml/.gitkeep
 !data_prefix/.gitkeep
 !plots/.gitkeep
+!shap/.gitkeep
 !stats/.gitkeep
 
